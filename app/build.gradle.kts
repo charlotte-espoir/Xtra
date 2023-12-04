@@ -29,7 +29,7 @@ android {
         minSdk = 21
         targetSdk = 34
         versionCode = 121
-        versionName = "2.26.2"
+        versionName = "2.26.3"
         resourceConfigurations += listOf("ar", "de", "en", "es", "fr", "in", "ja", "pt-rBR", "ru", "tr", "zh-rTW")
     }
 
@@ -75,7 +75,7 @@ dependencies {
     implementation(libs.room.ktx)
     implementation(libs.room.paging)
     ksp(libs.room.compiler)
-    implementation(libs.work.runtime.ktx)
+    implementation(libs.work.runtime)
     implementation(libs.core.ktx)
     implementation(libs.fragment.ktx)
     implementation(libs.navigation.fragment.ktx)
@@ -101,7 +101,7 @@ dependencies {
     implementation(libs.checker.qual)
 
     constraints {
-        implementation("androidx.media:media:1.7.0-rc01") // https://github.com/androidx/media/blob/release/constants.gradle#L47
+        implementation("androidx.media:media:1.7.0") // https://github.com/androidx/media/blob/release/constants.gradle#L47
     }
 
     implementation(libs.coil)

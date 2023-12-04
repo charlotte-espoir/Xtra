@@ -77,13 +77,13 @@ class ChatViewModel @Inject constructor(
         get() = _otherEmotes
 
     private var loadedUserEmotes = false
-    val globalStvEmotes = MutableLiveData<List<Emote>>()
+    val globalStvEmotes = MutableLiveData<List<Emote>?>()
     val channelStvEmotes = MutableLiveData<List<Emote>>()
-    val globalBttvEmotes = MutableLiveData<List<Emote>>()
+    val globalBttvEmotes = MutableLiveData<List<Emote>?>()
     val channelBttvEmotes = MutableLiveData<List<Emote>>()
-    val globalFfzEmotes = MutableLiveData<List<Emote>>()
+    val globalFfzEmotes = MutableLiveData<List<Emote>?>()
     val channelFfzEmotes = MutableLiveData<List<Emote>>()
-    val globalBadges = MutableLiveData<List<TwitchBadge>>()
+    val globalBadges = MutableLiveData<List<TwitchBadge>?>()
     val channelBadges = MutableLiveData<List<TwitchBadge>>()
     val cheerEmotes = MutableLiveData<List<CheerEmote>>()
     val roomState = MutableLiveData<RoomState>()

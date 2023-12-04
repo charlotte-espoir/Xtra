@@ -1,5 +1,5 @@
 [versions]
-android-gradle-plugin = "8.1.4"
+android-gradle-plugin = "8.2.0"
 apollo = "3.8.2"
 appcompat = "1.7.0-alpha03"
 checker-qual = "3.40.0"
@@ -13,7 +13,7 @@ flexbox = "3.0.0"
 fragment = "1.6.2"
 glide = "4.16.0"
 glide-webpdecoder = "2.6.4.16.0"
-hilt = "2.48.1"
+hilt = "2.49"
 hilt-extension-compiler = "1.1.0"
 hilt-work = "1.1.0"
 kotlin = "1.9.20"
@@ -27,10 +27,10 @@ open-m3u8 = "0.2.6"
 paging = "3.2.1"
 preference = "1.2.1"
 retrofit = "2.9.0"
-room = "2.6.0"
+room = "2.6.1"
 swiperefreshlayout = "1.1.0"
-webkit = "1.8.0"
-work = "2.8.1"
+webkit = "1.9.0"
+work = "2.9.0"
 
 [libraries]
 apollo-runtime = { module = "com.apollographql.apollo3:apollo-runtime", version.ref = "apollo" }
@@ -78,7 +78,7 @@ room-paging = { module = "androidx.room:room-paging", version.ref = "room" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
 webkit = { module = "androidx.webkit:webkit", version.ref = "webkit" }
-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "work" }
+work-runtime = { module = "androidx.work:work-runtime", version.ref = "work" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
